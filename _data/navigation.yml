@@ -1,0 +1,14 @@
+# Main Navigation Bar
+main:
+  - title: "About"
+    url: /
+  - title: "Publications"
+    url: /publications/
+  - title: "Research & Projects"
+    url: /portfolio/
+  - title: "Talks"
+    url: /talks/
+  - title: "Teaching"
+    url: /teaching/
+  - title: "CV"
+    url: /cv/

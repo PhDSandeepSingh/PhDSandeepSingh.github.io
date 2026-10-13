@@ -1,0 +1,155 @@
+# Site Configuration for Sandeep Singh Academic Portfolio
+# Based on AcademicPages / Minimal Mistakes Jekyll Theme
+
+# Site Settings
+locale                   : "en-US"
+title                    : "Sandeep Singh"
+title_separator          : "-"
+name                     : &name "Sandeep Singh"
+description              : &description "Computational researcher & data scientist specializing in clinical machine learning and environmental spatiotemporal intelligence."
+url                      : "https://sandeepsinghnk.github.io"
+baseurl                  : "" # Set to "/SandeepSingh.github.io" if served from repo name rather than username root
+repository               : "SandeepSinghNk/SandeepSingh.github.io"
+teaser                   : # path to default teaser image
+
+# Site Author
+author:
+  name             : "Sandeep Singh"
+  avatar           : "/assets/images/profile.jpg"
+  bio              : "Data Scientist & Computational Researcher"
+  location         : "Punjab, India"
+  employer         : "Academic Research"
+  uri              : "https://sandeepsinghnk.github.io"
+  email            : ""
+  github           : "SandeepSinghNk"
+  googlescholar    : "" # Add your Google Scholar profile URL/ID
+  orcid            : "" # Add your ORCID ID
+  linkedin         : "" # Add your LinkedIn username
+  twitter          : ""
+
+# Site Theme & Gems
+remote_theme             : "academicpages/academicpages.github.io"
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+  - jekyll-redirect-from
+
+# Collections
+collections:
+  teaching:
+    output: true
+    permalink: /:collection/:path/
+  publications:
+    output: true
+    permalink: /:collection/:path/
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
+  talks:
+    output: true
+    permalink: /:collection/:path/
+
+# Markdown & Syntax Highlighting
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+  math_engine: mathjax
+
+# Reading Files
+include:
+  - .htaccess
+  - _pages
+  - files
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - vendor
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/plugins
+  - assets/js/_main.js
+  - assets/js/vendor
+  - Capfile
+  - CHANGELOG
+  - config
+  - Gemfile
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - log
+  - node_modules
+  - Rakefile
+  - README
+  - tmp
+  - setup_dirs.py
+  - populate_portfolio.py
+
+# Defaults for Frontmatter
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  # _publications
+  - scope:
+      path: ""
+      type: publications
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _portfolio
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
+  # _talks
+  - scope:
+      path: ""
+      type: talks
+    values:
+      layout: talk
+      author_profile: true
+      share: true
+  # _teaching
+  - scope:
+      path: ""
+      type: teaching
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
