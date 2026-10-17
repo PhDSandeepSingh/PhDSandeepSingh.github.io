@@ -1,0 +1,23 @@
+# Jekyll build & cache
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+.asset-cache/
+.bundle/
+vendor/
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Editor & temporary files
+*.swp
+*~
+.vscode/
+.idea/
+tmp/
+log/
+node_modules/

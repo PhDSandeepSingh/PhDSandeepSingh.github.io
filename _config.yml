@@ -6,26 +6,27 @@ locale                   : "en-US"
 title                    : "Sandeep Singh"
 title_separator          : "-"
 name                     : &name "Sandeep Singh"
-description              : &description "Computational researcher & data scientist specializing in clinical machine learning and environmental spatiotemporal intelligence."
-url                      : "https://sandeepsinghnk.github.io"
-baseurl                  : "" # Set to "/SandeepSingh.github.io" if served from repo name rather than username root
-repository               : "SandeepSinghNk/SandeepSingh.github.io"
+description              : &description "PhD Researcher & Data Scientist specializing in clinical machine learning and environmental spatiotemporal intelligence."
+url                      : "https://phdsandeepsingh.github.io"
+baseurl                  : "" # Leave empty ("") for user site PhDSandeepSingh/PhDSandeepSingh.github.io; set to "/PhDSandeepSingh.github.io" if hosted as a project repo under another username
+repository               : "PhDSandeepSingh/PhDSandeepSingh.github.io"
 teaser                   : # path to default teaser image
 
-# Site Author
+# Site Author (Update your personal details and links below)
 author:
   name             : "Sandeep Singh"
-  avatar           : "/assets/images/profile.jpg"
-  bio              : "Data Scientist & Computational Researcher"
+  avatar           : "profile.svg" # Replace with "profile.jpg" after adding your photo to /images/profile.jpg
+  bio              : "PhD Researcher & Data Scientist"
   location         : "Punjab, India"
-  employer         : "Academic Research"
-  uri              : "https://sandeepsinghnk.github.io"
-  email            : ""
-  github           : "SandeepSinghNk"
-  googlescholar    : "" # Add your Google Scholar profile URL/ID
-  orcid            : "" # Add your ORCID ID
-  linkedin         : "" # Add your LinkedIn username
-  twitter          : ""
+  employer         : "Department / University Name" # TODO: Update with your institution
+  uri              : "https://phdsandeepsingh.github.io"
+  email            : "" # TODO: e.g. "sandeep@university.edu"
+  github           : "PhDSandeepSingh"
+  googlescholar    : "" # TODO: Full URL to your Google Scholar profile
+  orcid            : "" # TODO: Full ORCID URL, e.g. "https://orcid.org/0000-0000-0000-0000"
+  researchgate     : "" # TODO: Full URL to your ResearchGate profile (optional)
+  linkedin         : "" # TODO: LinkedIn username (part after linkedin.com/in/)
+  twitter          : "" # TODO: X/Twitter handle without @ (optional)
 
 # Site Theme & Gems
 remote_theme             : "academicpages/academicpages.github.io"
@@ -94,6 +95,8 @@ exclude:
   - node_modules
   - Rakefile
   - README
+  - README.md
+  - files/README.md
   - tmp
   - setup_dirs.py
   - populate_portfolio.py
