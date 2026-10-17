@@ -12,27 +12,27 @@ redirect_from:
 > **Download Full CV:** [Download PDF Curriculum Vitae]({{ base_path }}/files/Sandeep_Singh_CV.pdf) *(Upload `Sandeep_Singh_CV.pdf` to the `files/` directory to activate this link)*
 
 ## Research Summary
-PhD researcher and data scientist with specialized expertise in medical machine learning (oncology triage, leakage-aware validation) and environmental big data systems (multi-state air quality networks, ERA5 reanalysis, NASA FIRMS satellite data).
+PhD researcher and data scientist in the **Department of Mathematics, Chandigarh University, Mohali, India (140413)**, with specialized expertise in medical machine learning (oncology triage, leakage-aware validation) and environmental big data systems (multi-state air quality networks, ERA5 reanalysis, NASA FIRMS satellite data).
 
 ---
 
 ## Education
-* **Ph.D. in Computer Science / Data Science** *(Year – Present)*  
-  *University / Institution Name, Punjab, India*  
+* **Ph.D. in Mathematics / Data Science & Machine Learning** *(Year – Present)*  
+  *Department of Mathematics, Chandigarh University, Mohali, India, 140413*  
   * **Thesis / Focus:** Clinical Machine Learning & Environmental Spatiotemporal Intelligence
-  * **Advisor:** Prof. [Advisor Name]
-* **Master's Degree (M.Tech. / M.Sc. / MCA)** *(Year – Year)*  
+  * **Supervisor / Advisor:** [Advisor Name]
+* **Master's Degree (M.Sc. / M.Tech.)** *(Year – Year)*  
   *University / Institution Name, Location*
-* **Bachelor's Degree (B.Tech. / B.Sc.)** *(Year – Year)*  
+* **Bachelor's Degree (B.Sc. / B.Tech.)** *(Year – Year)*  
   *University / Institution Name, Location*
 
 ---
 
 ## Academic & Research Appointments
-* **Doctoral Researcher** | *Department / Lab Name, University* *(Year – Present)*
+* **Doctoral Researcher** | *Department of Mathematics, Chandigarh University, Mohali, India, 140413* *(Year – Present)*
   * Designing leakage-free clinical machine learning pipelines and multi-sensor environmental forecasting benchmarks.
-* **Research Assistant / Teaching Fellow** | *Department / Institution* *(Year – Year)*
-  * Add key responsibilities, lab leadership, or project contributions here.
+* **Research / Teaching Assistant** | *Department of Mathematics, Chandigarh University* *(Year – Present)*
+  * Supporting laboratory workshops in scientific Python, statistical modeling, and reproducible machine learning.
 
 ---
 

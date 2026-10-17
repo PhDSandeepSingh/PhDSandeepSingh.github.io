@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Welcome to my academic research and data science portfolio. I am a researcher and machine learning practitioner based in Punjab, India, specializing in **Clinical Machine Learning** and **Environmental Spatiotemporal Data Science**.
+Welcome to my academic research and data science portfolio. I am a PhD researcher and machine learning practitioner in the **Department of Mathematics, Chandigarh University, Mohali, India (140413)**, specializing in **Clinical Machine Learning** and **Environmental Spatiotemporal Data Science**.
 
 My work focuses on developing robust, leakage-free modeling pipelines for clinical diagnostics, as well as production-grade big data pipelines for environmental atmospheric monitoring.
 
@@ -27,8 +27,14 @@ My work focuses on developing robust, leakage-free modeling pipelines for clinic
 
 ---
 
+## Affiliation & Contact
+* **Department:** Department of Mathematics
+* **Institution:** Chandigarh University, Mohali, Punjab, India – 140413
+
+---
+
 ## News & Recent Updates
 
 * **October 2026:** Completed Revision 2 of our clinical oncology manuscript, *"Machine learning triage for glioma histological grading using a minimal mutation and age panel"*, establishing locked Youden thresholding and TCGA cohort provenance audits.
 * **October 2026:** Released the canonical 50,377-hour Northern India Air Shed dataset ingestion engine covering 126 continuous ambient air quality stations.
-* **October 2026:** Launched my GitHub portfolio page built with Jekyll and AcademicPages.
+* **October 2026:** Launched my academic portfolio page on GitHub Pages.

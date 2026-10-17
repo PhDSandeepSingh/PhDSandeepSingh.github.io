@@ -7,9 +7,9 @@
       {% if author.avatar contains "://" %}
         <img src="{{ author.avatar }}" alt="{{ author.name }}" itemprop="image">
       {% elsif author.avatar contains "/" %}
-        <img src="{{ author.avatar | prepend: base_path }}" alt="{{ author.name }}" itemprop="image">
+        <img src="{{ author.avatar | prepend: base_path }}" alt="{{ author.name }}" itemprop="image" onerror="this.onerror=null;this.src='{{ base_path }}/images/profile.svg';">
       {% else %}
-        <img src="{{ base_path }}/images/{{ author.avatar }}" alt="{{ author.name }}" itemprop="image">
+        <img src="{{ base_path }}/images/{{ author.avatar }}" alt="{{ author.name }}" itemprop="image" onerror="this.onerror=null;this.src='{{ base_path }}/{{ author.avatar }}';this.onerror=function(){this.src='{{ base_path }}/images/profile.svg';};">
       {% endif %}
     {% endif %}
   </div>
@@ -23,11 +23,11 @@
 
   <div class="author__urls-wrapper">
     <ul class="author__urls social-icons">
-      {% if author.location and author.location != "" %}
-        <li itemprop="homeLocation"><i class="fas fa-fw fa-location-dot" aria-hidden="true"></i> <span>{{ author.location }}</span></li>
-      {% endif %}
       {% if author.employer and author.employer != "" %}
         <li itemprop="worksFor"><i class="fas fa-fw fa-building-columns" aria-hidden="true"></i> <span>{{ author.employer }}</span></li>
+      {% endif %}
+      {% if author.location and author.location != "" %}
+        <li itemprop="homeLocation"><i class="fas fa-fw fa-location-dot" aria-hidden="true"></i> <span>{{ author.location }}</span></li>
       {% endif %}
       {% if author.email and author.email != "" %}
         <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> <span>Email</span></a></li>

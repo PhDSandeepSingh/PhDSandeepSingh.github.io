@@ -3,9 +3,9 @@ title: "Workshops on Scientific Python & Environmental Informatics"
 collection: teaching
 type: "Practical Laboratory Workshop"
 permalink: /teaching/data-science-environmental-informatics
-venue: "University Research Laboratory"
+venue: "Department of Mathematics, Chandigarh University"
 date: 2026-08-15
-location: "Punjab, India"
+location: "Mohali, India"
 ---
 
 Interactive hands-on tutorials covering:

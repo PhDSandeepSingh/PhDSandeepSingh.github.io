@@ -6,7 +6,7 @@ locale                   : "en-US"
 title                    : "Sandeep Singh"
 title_separator          : "-"
 name                     : &name "Sandeep Singh"
-description              : &description "PhD Researcher & Data Scientist specializing in clinical machine learning and environmental spatiotemporal intelligence."
+description              : &description "PhD Researcher at the Department of Mathematics, Chandigarh University, specializing in clinical machine learning and environmental spatiotemporal intelligence."
 url                      : "https://phdsandeepsingh.github.io"
 baseurl                  : "" # Leave empty ("") for user site PhDSandeepSingh/PhDSandeepSingh.github.io
 repository               : "PhDSandeepSingh/PhDSandeepSingh.github.io"
@@ -15,12 +15,12 @@ teaser                   : # path to default teaser image
 # Site Author (Update your personal details and links below)
 author:
   name             : "Sandeep Singh"
-  avatar           : "profile.svg" # Replace with "profile.jpg" after adding your photo to /images/profile.jpg
+  avatar           : "PP.PNG" # Reads from /images/PP.PNG or /PP.PNG (falls back to /images/profile.svg if not yet copied)
   bio              : "PhD Researcher & Data Scientist"
-  location         : "Punjab, India"
-  employer         : "Department / University Name" # TODO: Update with your institution
+  location         : "Mohali, India, 140413"
+  employer         : "Department of Mathematics, Chandigarh University"
   uri              : "https://phdsandeepsingh.github.io"
-  email            : "" # TODO: e.g. "sandeep@university.edu"
+  email            : "" # TODO: e.g. "sandeep@cumail.in"
   github           : "PhDSandeepSingh"
   googlescholar    : "" # TODO: Full URL to your Google Scholar profile
   orcid            : "" # TODO: Full ORCID URL, e.g. "https://orcid.org/0000-0000-0000-0000"
