@@ -16,7 +16,7 @@ teaser                   : # path to default teaser image
 author:
   name             : "Sandeep Singh"
   avatar           : "PP.PNG"
-  bio              : "PhD Scholar — Mathematics & Data Science | Machine Learning & Applied Data Science"
+  bio              : "PhD Scholar — Mathematics & Data Science · Machine Learning & Applied Data Science"
   location         : "Mohali, India, 140413"
   employer         : "Department of Mathematics, Chandigarh University"
   uri              : "https://phdsandeepsingh.github.io"

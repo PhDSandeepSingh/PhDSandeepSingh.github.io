@@ -20,27 +20,27 @@ PhD candidate in Mathematics & Data Science at Chandigarh University, currently 
 
 ## Education
 
-* **Ph.D. — Mathematics & Data Science** | *Chandigarh University, Mohali, Punjab, India (140413)*  
-  *2025 – Present (Currently 3rd Semester) | Supervisor: Prof. Ashok Pal*
+* **Ph.D. — Mathematics & Data Science** &middot; *Chandigarh University, Mohali, Punjab, India (140413)*  
+  *2025 – Present (Currently 3rd Semester) &middot; Supervisor: Prof. Ashok Pal*
   * **Doctoral Thesis:** *"Airshed Intelligence: Five-State Spatio-Temporal ML+DL and Policy Optimization"* — air quality forecasting and control-policy modeling across Punjab, Haryana, Himachal Pradesh, Uttar Pradesh, and Delhi.
   * **Focus Areas:** Spatio-temporal machine learning, deep learning, statistical modeling, environmental data science, biostatistics, policy optimization.
   * **Doctoral Output Target:** 3–4 publications in Springer Nature Q1/Q2 journals.
 
-* **M.Sc. — Data Science** | *Chandigarh University, Mohali, Punjab, India*  
-  *Completed June 2025 | GPA: 7.4 / 10*
+* **M.Sc. — Data Science** &middot; *Chandigarh University, Mohali, Punjab, India*  
+  *Completed June 2025 &middot; GPA: 7.4 / 10*
   * Advanced coursework in machine learning, deep learning, health data analytics, and statistical inference.
   * **Capstone Project:** Developed a predictive modeling solution addressing real-world business and health data challenges.
   * Presented research on machine learning techniques at the university's annual Data Science Symposium.
 
-* **B.Sc. — Information Technology** | *Maharaja Ranjit Singh Punjab Technical University (MRSPTU)*  
-  *Completed December 2019 | GPA: 7.09 / 9*
+* **B.Sc. — Information Technology** &middot; *Maharaja Ranjit Singh Punjab Technical University (MRSPTU)*  
+  *Completed December 2019 &middot; GPA: 7.09 / 9*
   * **Core Coursework:** Python, Java, C++, Data Management, Cybersecurity.
 
 ---
 
 ## Research & Professional Experience
 
-* **PhD Research Scholar & Mathematics Faculty** | *Department of Mathematics, Chandigarh University, Mohali, Punjab*  
+* **PhD Research Scholar & Mathematics Faculty** &middot; *Department of Mathematics, Chandigarh University, Mohali, Punjab*  
   *2025 – Present*
   * Conducting doctoral research building spatio-temporal ML/DL forecasting systems across a five-state, 115–126 station, ~20.1-million-record air quality dataset (2021–2026).
   * Taught **Applied Mathematics** to B.E. Computer Science & Engineering students (1 year) — planned lectures, conducted tutorials, developed assessments, and evaluated examinations.
@@ -48,19 +48,19 @@ PhD candidate in Mathematics & Data Science at Chandigarh University, currently 
   * Built two reusable AI-assisted research tools: a structured three-pass manuscript peer-review pipeline (editorial desk-reject check, methodology critique, and response-letter drafting) grounded in COPE, ICMJE, and Springer publishing guidelines, and a scientific writing tool for manuscript and report drafting.
   * Performing literature reviews, large-scale data engineering, and quantitative analysis aligned with doctoral research objectives.
 
-* **Business Analyst Intern** | *KultureHire*  
+* **Business Analyst Intern** &middot; *KultureHire*  
   *Sep 2024 – Nov 2024*
   * Analyzed large datasets to identify trends, supporting strategic and operational decision-making.
   * Developed MIS dashboards and visualizations using Tableau and Excel for stakeholder presentations.
   * Collaborated cross-functionally to gather data requirements and align analytical outputs with project goals.
 
-* **Data Analyst Intern** | *KultureHire*  
+* **Data Analyst Intern** &middot; *KultureHire*  
   *Jun 2024 – Aug 2024*
   * Translated client business requirements into actionable data insights for development and strategy teams.
   * Conducted market research using SQL and Python; segmented customer demographics to support strategic recommendations.
   * Delivered data-driven dashboards summarizing findings for senior stakeholders.
 
-* **Operations Manager** | *MS Royal Recency (Luxury Resort)*  
+* **Operations Manager** &middot; *MS Royal Recency (Luxury Resort)*  
   *Nov 2021 – Feb 2023*
   * Managed daily operations, overseeing 13+ staff and executing data-driven marketing strategies that increased occupancy by 15%.
 
@@ -87,13 +87,13 @@ PhD candidate in Mathematics & Data Science at Chandigarh University, currently 
 * **Glioma Grade Prediction — ML Pipeline with SHAP & Clinical Threshold Optimization** *[Under Revision / Review]*
   * Built an end-to-end ML diagnostic pipeline on the UCI/TCGA Glioma Grading Dataset ($n = 839$ patients, 20 somatic mutation markers + 3 clinical variables) classifying Low-Grade Glioma (LGG) vs. Glioblastoma Multiforme (GBM).
   * Implemented fold-safe SMOTE strictly inside training partitions; achieved $\text{ROC-AUC} = 0.931$ on sealed holdout under nested cross-validation (and $\text{ROC-AUC} = 0.926$, $\text{MCC} = 0.738$, $\text{Brier} = 0.102$ across ensemble evaluations).
-  * Used SHAP TreeExplainer to confirm `IDH1` ($\bar{\phi} = 0.207$) and `Age` as dominant predictors aligned with WHO 2021 CNS criteria, and designed a clinical cost-matrix threshold optimization framework ($C_{\text{FN}} = 10, C_{\text{FP}} = 2$, shifting $\tau^* = 0.200$ for $97.1\%$ GBM sensitivity and $24\%$ clinical cost reduction).
+  * Used SHAP TreeExplainer to confirm `IDH1` ($\bar{\phi} = 0.207$) and `Age` as dominant predictors aligned with WHO 2021 CNS criteria, and designed a clinical cost-matrix threshold optimization framework ($C_{\text{FN}} = 10, C_{\text{FP}} = 2$, shifting $\tau^* = 0.200$ for 97.1% GBM sensitivity and a 24% clinical cost reduction).
 
 * **Phishing & Android Malware Detection System** *[Under Review]*
-  * Built an automated detection system achieving $99.9\%$ accuracy using machine learning and heuristic analysis, validated with adversarial robustness testing.
+  * Built an automated detection system achieving 99.9% accuracy using machine learning and heuristic analysis, validated with adversarial robustness testing.
 
 * **AI Diagnostic Model — Bone Fracture & Gallstone Detection**
-  * Led development of deep learning computer vision models across CT, X-ray, and ultrasound modalities, validated on $1,000+$ clinical images with a $20\%$ improvement in diagnostic accuracy.
+  * Led development of deep learning computer vision models across CT, X-ray, and ultrasound modalities, validated on 1,000+ clinical images with a 20% improvement in diagnostic accuracy.
 
 * **Gen-Z Career Aspirations & Customer Demography Analysis**
   * Designed and executed an end-to-end survey-to-dashboard analytics pipeline using SQL, Python, and Tableau to segment demographics and correlate career preference trends.

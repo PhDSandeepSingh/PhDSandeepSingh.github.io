@@ -26,16 +26,16 @@ My research builds large-scale machine learning and deep learning systems at the
 * **Regional Particulate Nowcasting:** Built multi-horizon deep learning forecasting systems (LSTM, GRU, Bi-LSTM, Bi-GRU) for Punjab and across **24 Haryana cities** with persistence baselines and formal statistical significance testing.
 
 ### 2. Clinical Machine Learning, Neuro-Oncology & Medical Imaging
-* **Leakage-Free Glioma Grading & Threshold Optimization:** Designed an audited machine learning pipeline on the UCI/TCGA Glioma Grading cohort ($n = 839$, 20 somatic mutations + 3 clinical variables) using fold-safe SMOTE, nested cross-validation ($\text{ROC-AUC} = 0.931$ on sealed holdout; $\text{ROC-AUC} = 0.926$, $\text{MCC} = 0.738$, $\text{Brier} = 0.102$ across ensemble benchmarks), SHAP TreeExplainer (`IDH1` $\bar{\phi} = 0.207$ and `Age`), and clinical cost-matrix threshold optimization ($C_{\text{FN}} = 10, C_{\text{FP}} = 2$, shifting $\tau^* = 0.200$ for $97.1\%$ GBM sensitivity and $24\%$ clinical cost reduction).
-* **Multi-Modal Medical Imaging Diagnostics:** Led development of deep learning computer vision models across CT, X-ray, and ultrasound modalities for bone fracture and gallstone detection, validated on $1,000+$ clinical images with a $20\%$ diagnostic accuracy improvement.
+* **Leakage-Free Glioma Grading & Threshold Optimization:** Designed an audited machine learning pipeline on the UCI/TCGA Glioma Grading cohort ($n = 839$, 20 somatic mutations + 3 clinical variables) using fold-safe SMOTE, nested cross-validation ($\text{ROC-AUC} = 0.931$ on sealed holdout; $\text{ROC-AUC} = 0.926$, $\text{MCC} = 0.738$, $\text{Brier} = 0.102$ across ensemble benchmarks), SHAP TreeExplainer (`IDH1` $\bar{\phi} = 0.207$ and `Age`), and clinical cost-matrix threshold optimization ($C_{\text{FN}} = 10, C_{\text{FP}} = 2$, shifting $\tau^* = 0.200$ for 97.1% GBM sensitivity and a 24% clinical cost reduction).
+* **Multi-Modal Medical Imaging Diagnostics:** Led development of deep learning computer vision models across CT, X-ray, and ultrasound modalities for bone fracture and gallstone detection, validated on 1,000+ clinical images with a 20% diagnostic accuracy improvement.
 
 ### 3. Cybersecurity ML & AI-Assisted Scientific Publishing Workflows
-* **Phishing & Android Malware Detection:** Built an automated machine learning and heuristic detection pipeline achieving $99.9\%$ accuracy under adversarial robustness testing.
+* **Phishing & Android Malware Detection:** Built an automated machine learning and heuristic detection pipeline achieving 99.9% accuracy under adversarial robustness testing.
 * **Structured Scientific Peer-Review & Writing Tools:** Authored a three-pass manuscript peer-review pipeline (editorial desk-reject screening, methodology critique, and response-letter drafting) grounded in COPE, ICMJE, and Springer Nature (`sn-jnl` / `svjour3`) guidelines.
 
 ---
 
 ## Education Snapshot
-* **Ph.D. in Mathematics & Data Science** — *Chandigarh University, Mohali, India* *(2025 – Present, 3rd Semester | Supervisor: Prof. Ashok Pal)*
-* **M.Sc. in Data Science** — *Chandigarh University, Mohali, India* *(Completed June 2025 | GPA: 7.4 / 10)*
-* **B.Sc. in Information Technology** — *Maharaja Ranjit Singh Punjab Technical University (MRSPTU)* *(Completed December 2019 | GPA: 7.09 / 9)*
+* **Ph.D. in Mathematics & Data Science** — *Chandigarh University, Mohali, India* (2025 – Present, 3rd Semester &middot; Supervisor: Prof. Ashok Pal)
+* **M.Sc. in Data Science** — *Chandigarh University, Mohali, India* (Completed June 2025 &middot; GPA: 7.4 / 10)
+* **B.Sc. in Information Technology** — *Maharaja Ranjit Singh Punjab Technical University (MRSPTU)* (Completed December 2019 &middot; GPA: 7.09 / 9)
