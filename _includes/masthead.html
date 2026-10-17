@@ -1,0 +1,21 @@
+{% include base_path %}
+<header class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav" aria-label="Primary Navigation">
+        <a class="site-title" href="{{ base_path }}/">{{ site.title }}</a>
+        <button class="nav-toggle" type="button" aria-label="Toggle navigation" onclick="document.getElementById('nav-links').classList.toggle('is-open')">
+          <i class="fas fa-bars"></i>
+        </button>
+        <ul id="nav-links" class="visible-links">
+          {% for link in site.data.navigation.main %}
+            {% assign link_url = link.url | prepend: base_path %}
+            <li class="masthead__menu-item">
+              <a href="{{ link_url }}" {% if page.url == link.url or (link.url != '/' and page.url contains link.url) %}class="active"{% endif %}>{{ link.title }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>

@@ -1,0 +1,14 @@
+{% include base_path %}
+<footer class="page__footer">
+  <div class="page__footer-inner">
+    <div class="page__footer-copyright">
+      &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://academicpages.github.io/" rel="nofollow">AcademicPages</a>.
+    </div>
+    <div class="page__footer-links">
+      {% if site.author.github and site.author.github != "" %}
+        <a href="https://github.com/{{ site.author.github }}" target="_blank" rel="noopener"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a>
+      {% endif %}
+      <a href="{{ base_path }}/feed.xml"><i class="fas fa-rss" aria-hidden="true"></i> Feed</a>
+    </div>
+  </div>
+</footer>

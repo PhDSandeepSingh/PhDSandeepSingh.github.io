@@ -1,0 +1,55 @@
+{% include base_path %}
+{% assign author = site.author %}
+
+<div class="author-card" itemscope itemtype="http://schema.org/Person">
+  <div class="author__avatar">
+    {% if author.avatar and author.avatar != "" %}
+      {% if author.avatar contains "://" %}
+        <img src="{{ author.avatar }}" alt="{{ author.name }}" itemprop="image">
+      {% elsif author.avatar contains "/" %}
+        <img src="{{ author.avatar | prepend: base_path }}" alt="{{ author.name }}" itemprop="image">
+      {% else %}
+        <img src="{{ base_path }}/images/{{ author.avatar }}" alt="{{ author.name }}" itemprop="image">
+      {% endif %}
+    {% endif %}
+  </div>
+
+  <div class="author__content">
+    <h3 class="author__name" itemprop="name">{{ author.name }}</h3>
+    {% if author.bio and author.bio != "" %}
+      <p class="author__bio" itemprop="description">{{ author.bio }}</p>
+    {% endif %}
+  </div>
+
+  <div class="author__urls-wrapper">
+    <ul class="author__urls social-icons">
+      {% if author.location and author.location != "" %}
+        <li itemprop="homeLocation"><i class="fas fa-fw fa-location-dot" aria-hidden="true"></i> <span>{{ author.location }}</span></li>
+      {% endif %}
+      {% if author.employer and author.employer != "" %}
+        <li itemprop="worksFor"><i class="fas fa-fw fa-building-columns" aria-hidden="true"></i> <span>{{ author.employer }}</span></li>
+      {% endif %}
+      {% if author.email and author.email != "" %}
+        <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> <span>Email</span></a></li>
+      {% endif %}
+      {% if author.github and author.github != "" %}
+        <li><a href="https://github.com/{{ author.github }}" target="_blank" rel="noopener"><i class="fab fa-fw fa-github" aria-hidden="true"></i> <span>GitHub</span></a></li>
+      {% endif %}
+      {% if author.googlescholar and author.googlescholar != "" %}
+        <li><a href="{{ author.googlescholar }}" target="_blank" rel="noopener"><i class="ai ai-fw ai-google-scholar" aria-hidden="true"></i> <span>Google Scholar</span></a></li>
+      {% endif %}
+      {% if author.orcid and author.orcid != "" %}
+        <li><a href="{{ author.orcid }}" target="_blank" rel="noopener"><i class="ai ai-fw ai-orcid" aria-hidden="true"></i> <span>ORCID</span></a></li>
+      {% endif %}
+      {% if author.researchgate and author.researchgate != "" %}
+        <li><a href="{{ author.researchgate }}" target="_blank" rel="noopener"><i class="ai ai-fw ai-researchgate" aria-hidden="true"></i> <span>ResearchGate</span></a></li>
+      {% endif %}
+      {% if author.linkedin and author.linkedin != "" %}
+        <li><a href="https://www.linkedin.com/in/{{ author.linkedin }}" target="_blank" rel="noopener"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> <span>LinkedIn</span></a></li>
+      {% endif %}
+      {% if author.twitter and author.twitter != "" %}
+        <li><a href="https://twitter.com/{{ author.twitter }}" target="_blank" rel="noopener"><i class="fab fa-fw fa-x-twitter" aria-hidden="true"></i> <span>Twitter / X</span></a></li>
+      {% endif %}
+    </ul>
+  </div>
+</div>

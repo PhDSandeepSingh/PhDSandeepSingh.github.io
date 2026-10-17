@@ -1,0 +1,10 @@
+{% include base_path %}
+<li class="cv-item">
+  <strong><a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a></strong>
+  {% if post.type %}<span class="cv-badge">{{ post.type }}</span>{% endif %}
+  <br>
+  {% if post.citation %}<span>{{ post.citation }}</span> {% endif %}
+  {% if post.venue %}<em>{{ post.venue }}</em>{% endif %}
+  {% if post.date %} ({{ post.date | date: "%Y" }}){% endif %}
+  {% if post.paperurl %} &middot; <a href="{{ post.paperurl }}" target="_blank" rel="noopener">[Repository / Paper]</a>{% endif %}
+</li>

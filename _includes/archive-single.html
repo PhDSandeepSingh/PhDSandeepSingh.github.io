@@ -1,0 +1,52 @@
+{% include base_path %}
+
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
+
+<article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+  <div class="archive__item-header">
+    <h2 class="archive__item-title" itemprop="headline">
+      <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
+    </h2>
+    {% if post.type %}
+      <span class="archive__badge">{{ post.type }}</span>
+    {% endif %}
+  </div>
+
+  {% if post.venue or post.date %}
+    <p class="archive__item-meta">
+      {% if post.venue %}
+        <span class="archive__venue"><i class="fas fa-book-open" aria-hidden="true"></i> {{ post.venue }}</span>
+      {% endif %}
+      {% if post.location %}
+        <span class="archive__location"> &middot; <i class="fas fa-location-dot" aria-hidden="true"></i> {{ post.location }}</span>
+      {% endif %}
+      {% if post.date %}
+        <span class="archive__date"> &middot; <i class="far fa-calendar" aria-hidden="true"></i> {{ post.date | date: "%B %Y" }}</span>
+      {% endif %}
+    </p>
+  {% endif %}
+
+  {% if post.excerpt %}
+    <div class="archive__item-excerpt" itemprop="description">
+      {{ post.excerpt | markdownify }}
+    </div>
+  {% endif %}
+
+  {% if post.citation or post.paperurl %}
+    <div class="archive__item-footer">
+      {% if post.citation %}
+        <p class="archive__citation"><strong>Citation:</strong> {{ post.citation }}</p>
+      {% endif %}
+      <div class="archive__actions">
+        <a class="btn btn--small btn--outline" href="{{ base_path }}{{ post.url }}">View Details</a>
+        {% if post.paperurl %}
+          <a class="btn btn--small btn--primary" href="{{ post.paperurl }}" target="_blank" rel="noopener"><i class="fas fa-external-link-alt" aria-hidden="true"></i> Code / Paper</a>
+        {% endif %}
+      </div>
+    </div>
+  {% endif %}
+</article>

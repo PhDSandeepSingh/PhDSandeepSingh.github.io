@@ -1,0 +1,9 @@
+{% include base_path %}
+<li class="cv-item">
+  <strong><a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a></strong>
+  {% if post.type %}<span class="cv-badge">{{ post.type }}</span>{% endif %}
+  <br>
+  {% if post.venue %}<em>{{ post.venue }}</em>{% endif %}
+  {% if post.location %}, {{ post.location }}{% endif %}
+  {% if post.date %} ({{ post.date | date: "%B %Y" }}){% endif %}
+</li>
