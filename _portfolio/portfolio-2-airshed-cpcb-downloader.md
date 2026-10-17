@@ -1,21 +1,17 @@
 ---
-title: "Air Shed Data Pipeline: 126 Northern India CAAQMS Stations"
-excerpt: "Automated scraper and harmonization engine capturing 50,377 hourly intervals across 5 states.<br/><img src='https://img.shields.io/badge/Data-CPCB%20CCR-orange.svg'> <img src='https://img.shields.io/badge/Format-Parquet-purple.svg'>"
+title: "Airshed Intelligence: Five-State Spatio-Temporal ML+DL & CPCB Data Infrastructure"
+excerpt: "Production-grade data infrastructure and LSTM/GRU/Bi-LSTM forecasting across 115–126 CPCB stations (~20.1M 15-minute records / 50,377 hourly intervals) spanning 5 Northern Indian states.<br/><img src='https://img.shields.io/badge/Records-20.1M+-orange.svg'> <img src='https://img.shields.io/badge/Models-LSTM%20%7C%20GRU%20%7C%20Bi--LSTM-purple.svg'>"
 collection: portfolio
 ---
 
-## Architecture & Pipeline Design
-A continuous data engineering pipeline designed to ingest, validate, and structure atmospheric monitoring data from the Central Pollution Control Board (CPCB) network.
+## Architecture & Doctoral Thesis Pipeline
+A five-state air quality forecasting and control-policy optimization framework covering **Punjab, Haryana, Himachal Pradesh, Uttar Pradesh, and Delhi**, integrating **115–126 CPCB continuous monitoring stations** and approximately **20.1 million 15-minute resolution records** (harmonized onto a 50,377-hour canonical panel).
 
-### Specifications
-* **Target States:** Delhi ($n=40$), Uttar Pradesh ($n=41$), Haryana ($n=31$), Punjab ($n=9$), Himachal Pradesh ($n=5$).
-* **Temporal Grid:** 1 January 2021 to 1 October 2026 (50,377 continuous hours).
-* **Multi-Tier Download Engine:**
-  * Mode A: Dynamic CPCB CCR portal scraper with automatic chunking (90-day windows) and exponential backoff.
-  * Mode B: Automated failover to Open Government Data (`data.gov.in`) and OpenAQ v3 historical APIs.
-  * Mode C: Raw archive parser harmonizing records onto canonical hourly timestamps.
-* **Storage & Integrity:** Serialized to Apache Parquet with station-level SHA-256 checksums and automated missingness audit reports.
-
-### Notebooks & Scripts
-* `CPCB_Historical_Data_Downloader.ipynb`: Google Colab Pro+ compatible notebook for interactive execution.
-* `create_cpcb_downloader_nb.py`: Programmatic script for generator pipeline creation.
+### Core Engineering & Auditing Milestones
+* **Unified Multi-Agency Infrastructure:** Built a standardized station registry, constants module, and multi-tier downloader (CPCB CCR portal, Open Government Data `data.gov.in`, and OpenAQ v3) serialized to Apache Parquet with SHA-256 integrity verification.
+* **Cross-Agency Data-Quality Auditing:** Detected and corrected critical raw-record anomalies:
+  * Resolved a $\text{NO}_x$ unit inconsistency requiring a $\times 2.05$ conversion factor.
+  * Handled a network-wide Haryana 2025 sensor outage.
+  * Harmonized DPCC Delhi stations reporting at effective 1-hour (rather than 15-minute) resolution.
+  * Corrected inverted file-numbering conventions across pollution control boards.
+* **Deep Learning Forecasting Pipeline:** Audited and corrected multi-city, multi-horizon Punjab forecasting architectures (LSTM, GRU, Bi-LSTM), fixing validation-data callback wiring to restore Early Stopping, Learning Rate Reduction, and Model Checkpointing across all training runs.

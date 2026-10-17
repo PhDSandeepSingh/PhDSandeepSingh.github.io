@@ -6,27 +6,27 @@ locale                   : "en-US"
 title                    : "Sandeep Singh"
 title_separator          : "-"
 name                     : &name "Sandeep Singh"
-description              : &description "PhD Researcher at the Department of Mathematics, Chandigarh University, specializing in clinical machine learning and environmental spatiotemporal intelligence."
+description              : &description "PhD Scholar in Mathematics & Data Science at Chandigarh University, specializing in spatio-temporal machine learning, deep learning, and biomedical diagnostics."
 url                      : "https://phdsandeepsingh.github.io"
 baseurl                  : "" # Leave empty ("") for user site PhDSandeepSingh/PhDSandeepSingh.github.io
 repository               : "PhDSandeepSingh/PhDSandeepSingh.github.io"
 teaser                   : # path to default teaser image
 
-# Site Author (Update your personal details and links below)
+# Site Author
 author:
   name             : "Sandeep Singh"
-  avatar           : "PP.PNG" # Reads from /images/PP.PNG or /PP.PNG (falls back to /images/profile.svg if not yet copied)
-  bio              : "PhD Researcher & Data Scientist"
+  avatar           : "PP.PNG"
+  bio              : "PhD Scholar — Mathematics & Data Science | Machine Learning & Applied Data Science"
   location         : "Mohali, India, 140413"
   employer         : "Department of Mathematics, Chandigarh University"
   uri              : "https://phdsandeepsingh.github.io"
-  email            : "" # TODO: e.g. "sandeep@cumail.in"
+  email            : "sandeepsinghprs@gmail.com"
   github           : "PhDSandeepSingh"
-  googlescholar    : "" # TODO: Full URL to your Google Scholar profile
-  orcid            : "" # TODO: Full ORCID URL, e.g. "https://orcid.org/0000-0000-0000-0000"
-  researchgate     : "" # TODO: Full URL to your ResearchGate profile (optional)
-  linkedin         : "" # TODO: LinkedIn username (part after linkedin.com/in/)
-  twitter          : "" # TODO: X/Twitter handle without @ (optional)
+  googlescholar    : "" # Add Google Scholar URL when available
+  orcid            : "" # Add ORCID URL when available
+  researchgate     : "" # Add ResearchGate URL when available
+  linkedin         : "" # Add LinkedIn username when available
+  twitter          : ""
 
 # GitHub Pages Supported Plugins
 plugins:

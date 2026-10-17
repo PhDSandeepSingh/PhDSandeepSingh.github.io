@@ -8,33 +8,34 @@ redirect_from:
   - /about.html
 ---
 
-Welcome to my academic research and data science portfolio. I am a PhD researcher and machine learning practitioner in the **Department of Mathematics, Chandigarh University, Mohali, India (140413)**, specializing in **Clinical Machine Learning** and **Environmental Spatiotemporal Data Science**.
+{% include base_path %}
 
-My work focuses on developing robust, leakage-free modeling pipelines for clinical diagnostics, as well as production-grade big data pipelines for environmental atmospheric monitoring.
+Welcome to my academic research and data science portfolio. I am a **Ph.D. Research Scholar & Mathematics Faculty** in the **Department of Mathematics, Chandigarh University, Mohali, India (140413)** (supervised by **Prof. Ashok Pal**), currently in my third semester of doctoral research.
+
+My research builds large-scale machine learning and deep learning systems at the intersection of **spatio-temporal environmental intelligence**, **clinical machine learning & biomedical diagnostics**, and **cybersecurity detection**, targeting Springer Nature and *Scientific Reports* (Q1/Q2) journals. Alongside my doctoral work, I have taught **Applied Mathematics** to B.E. Computer Science & Engineering students at Chandigarh University.
+
+> **Curriculum Vitae:** [Download Full PDF CV]({{ base_path }}/files/Sandeep_Singh_CV.pdf) &middot; **Contact:** [sandeepsinghprs@gmail.com](mailto:sandeepsinghprs@gmail.com)
 
 ---
 
 ## Primary Research Pillars
 
-### 1. Clinical Machine Learning & Computational Oncology
-* **Leakage-Free Diagnostic Pipelines:** Addressing pervasive methodological pitfalls in computational pathology and genomics, such as pre-split resampling leakage, unexamined decision thresholds, and misaligned validation splits.
-* **Parsimonious Biomarker Panels:** Identifying minimal, high-discrimination clinical and mutation markers (e.g., IDH1 mutation and patient age) that capture over 98% of discriminative capacity in glioma histological grading before ordering costly sequencing panels.
-* **Clinical Decision Analysis:** Evaluating models with decision-curve analysis (DCA), calibration curves, and SHAP interpretability to ensure translational clinical safety.
+### 1. Environmental Spatiotemporal Intelligence & Policy Optimization (Doctoral Thesis)
+* **Airshed Intelligence Across Five Northern Indian States:** Developing a five-state air quality forecasting and control-policy optimization framework across **Punjab, Haryana, Himachal Pradesh, Uttar Pradesh, and Delhi**—integrating **115–126 CPCB continuous monitoring stations** (~20.1 million 15-minute records and 50,377 canonical hourly intervals) with **ECMWF ERA5** meteorology and **NASA FIRMS** active fire radiative power (FRP).
+* **Multi-Agency Data Quality & Unit-Consistency Auditing:** Engineered a unified data infrastructure that resolves raw cross-agency anomalies, including a $\times 2.05$ $\text{NO}_x$ unit conversion discrepancy, network-wide Haryana 2025 sensor outage handling, and DPCC Delhi 1-hour vs. 15-minute resolution harmonization.
+* **Regional Particulate Nowcasting:** Built multi-horizon deep learning forecasting systems (LSTM, GRU, Bi-LSTM, Bi-GRU) for Punjab and across **24 Haryana cities** with persistence baselines and formal statistical significance testing.
 
-### 2. Environmental Spatiotemporal Intelligence & Atmospheric Big Data
-* **Multi-State CAAQMS Monitoring Network:** Architecting automated, rate-limit resilient ingestion engines tracking 23 criteria pollutants and VOCs across **126 continuous monitoring stations** in 5 Northern Indian states (Delhi, Haryana, Punjab, Uttar Pradesh, and Himachal Pradesh).
-* **Multi-Source Reanalysis & Satellite Fusion:** Harmonizing 50,000+ hourly intervals with ECMWF **ERA5** surface meteorology and **NASA FIRMS** active fire radiative power (FRP) with strict temporal lag constraints to eliminate lookahead bias in air quality forecasting.
+### 2. Clinical Machine Learning, Neuro-Oncology & Medical Imaging
+* **Leakage-Free Glioma Grading & Threshold Optimization:** Designed an audited machine learning pipeline on the UCI/TCGA Glioma Grading cohort ($n = 839$, 20 somatic mutations + 3 clinical variables) using fold-safe SMOTE, nested cross-validation ($\text{ROC-AUC} = 0.931$ on sealed holdout; $\text{ROC-AUC} = 0.926$, $\text{MCC} = 0.738$, $\text{Brier} = 0.102$ across ensemble benchmarks), SHAP TreeExplainer (`IDH1` $\bar{\phi} = 0.207$ and `Age`), and clinical cost-matrix threshold optimization ($C_{\text{FN}} = 10, C_{\text{FP}} = 2$, shifting $\tau^* = 0.200$ for $97.1\%$ GBM sensitivity and $24\%$ clinical cost reduction).
+* **Multi-Modal Medical Imaging Diagnostics:** Led development of deep learning computer vision models across CT, X-ray, and ultrasound modalities for bone fracture and gallstone detection, validated on $1,000+$ clinical images with a $20\%$ diagnostic accuracy improvement.
 
----
-
-## Affiliation & Contact
-* **Department:** Department of Mathematics
-* **Institution:** Chandigarh University, Mohali, Punjab, India – 140413
+### 3. Cybersecurity ML & AI-Assisted Scientific Publishing Workflows
+* **Phishing & Android Malware Detection:** Built an automated machine learning and heuristic detection pipeline achieving $99.9\%$ accuracy under adversarial robustness testing.
+* **Structured Scientific Peer-Review & Writing Tools:** Authored a three-pass manuscript peer-review pipeline (editorial desk-reject screening, methodology critique, and response-letter drafting) grounded in COPE, ICMJE, and Springer Nature (`sn-jnl` / `svjour3`) guidelines.
 
 ---
 
-## News & Recent Updates
-
-* **October 2026:** Completed Revision 2 of our clinical oncology manuscript, *"Machine learning triage for glioma histological grading using a minimal mutation and age panel"*, establishing locked Youden thresholding and TCGA cohort provenance audits.
-* **October 2026:** Released the canonical 50,377-hour Northern India Air Shed dataset ingestion engine covering 126 continuous ambient air quality stations.
-* **October 2026:** Launched my academic portfolio page on GitHub Pages.
+## Education Snapshot
+* **Ph.D. in Mathematics & Data Science** — *Chandigarh University, Mohali, India* *(2025 – Present, 3rd Semester | Supervisor: Prof. Ashok Pal)*
+* **M.Sc. in Data Science** — *Chandigarh University, Mohali, India* *(Completed June 2025 | GPA: 7.4 / 10)*
+* **B.Sc. in Information Technology** — *Maharaja Ranjit Singh Punjab Technical University (MRSPTU)* *(Completed December 2019 | GPA: 7.09 / 9)*
